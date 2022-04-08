@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200&family=Playfair+Display:ital@1&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat Alternates', sans-serif;
+  /* box-sizing: border-box */
+  text-align: center;
+}
+
+body{
+  background-image: url("light-grey-terrazzo.png");
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+  padding-top: 3vw;
+}
+
+li {
+  display: inline;
+  padding: 0 2vw 0 1vw;
+}
+
+
+/* ---------------------------------Nav Bar -------------------------*/
+.nav_bar {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #FFFFFF; */
+  min-height: 5vw;
+  color: black;
+  font-size: 1.5vw;
+  margin-bottom: 3vw;
+  border-bottom: 0.3vw solid red;
+}
+.logo {
+    padding-left: 3vw;
+  }
+  #ak {
+    font-size: 5vw;
+  }
+
+.nav-bar-shadow{
+  text-shadow: 1px 1px 2px #170055, 0 0 1em #170055, 0 0 0.2em #170055;
+  color:#AE00FB;
+}
+
+
+/* ------------------------------------------Intro Image----------------------------------- */
+.intro-image{
+  background-color: rgb(0, 0, 0);
+  background-image: url("Quotefancy-16703-3840x2160.jpg");
+  min-height: 40vw;
+  background-size: auto 40vw ;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* opacity: 80%; */
+  margin-bottom: 3vw;
+  /* border:2px solid red; */
+}
+/* ---------------------------------------About Me------------------------------------------- */
+.profile-img{
+  min-height: 20vw;
+  background-image: url("profile2.jpg");
+  background-size: auto 20vw;
+  background-repeat: no-repeat;
+  clip-path: circle();
+  background-position: center;
+  margin-bottom: 3vw;
+}
+
+.aboutme-txt{
+  margin-left: 25%;
+  width: 50vw;
+  /* border: 5px solid green; */
+  line-height: 5vw;
+  word-spacing: 1vw;
+  text-align: center;
+  font-weight: bold;
+  color:#391F5B
+}
+
+#aboutme{
+  padding-bottom: 2vw;
+  text-shadow: 1px 1px 2px #170055, 0 0 1em #170055, 0 0 0.2em #170055;
+  font-size: 4vw;
+  color:#AE00FB;
+}
+
+
+/* -----------------------------Image Gallery ------------------- */
+.image-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-gallery{
+  margin-top: 3vw;
+  width: 50%;
+}
+
+#posts {
+  font-size: 4vw;
+  color: #AE00FB;
+}
+
+
+
+
+
+
+
+
+/* ------------------------------------------Starting Page-------------------------------------- */
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+.bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  /* The image used */
+  background-image: url("Glitch_Text_Effect.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+
+
+.button-72 {
+    align-items: center;
+    background-color: initial;
+    background-image: linear-gradient(rgba(214, 30, 131, 0.84), rgba(57, 31, 91, .84) 50%);
+    border-radius: 42px;
+    border-width: 0;
+    box-shadow: rgba(57, 31, 91, 0.24) 0 2px 2px,rgba(238, 30, 193, 0.4) 0 8px 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: flex;
+    font-family: Quicksand,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    justify-content: center;
+    letter-spacing: .04em;
+    line-height: 16px;
+    margin: 0;
+    padding: 18px 18px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: rgba(255, 255, 255, 0.4) 0 0 4px,rgba(255, 255, 255, 0.2) 0 0 12px,rgba(57, 31, 91, 0.6) 1px 1px 4px,rgba(57, 31, 91, 0.32) 4px 4px 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    margin-bottom: 10vw;
+  }
+
+  .button-72:hover {
+    background-image: linear-gradient(#bd0fa0, #391F5B 50%);
+  }
+  @media (min-width: 768px) {
+    .button-72 {
+      font-size: 21px;
+      padding: 18px 34px;
+    }
+  }
+
+  
